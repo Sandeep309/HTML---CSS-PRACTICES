@@ -1,0 +1,72 @@
+*:focus,
+.btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+input {
+  border-radius: 0 !important;
+}
+
+.txt_red {
+  color: #e21818 !important;
+}
+
+.bg_red {
+  background-color: #e21818 !important;
+}
+
+.bg_black {
+  background-color: #1a1c1f !important;
+}
+
+.btn-danger {
+  background-color: #e21818 !important;
+}
+
+.btn-danger:hover {
+  background-color: #cf1717 !important;
+}
+
+.h_line {
+  position: relative;
+}
+
+.h_line::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 1px;
+  width: 40%;
+  left: 0;
+  top: 50%;
+  background-color: black;
+  z-index: -2;
+}
+
+.h_line::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 1px;
+  width: 40%;
+  right: 0;
+  top: 50%;
+  background-color: black;
+  z-index: -2;
+}
+
+.spn {
+  background-color: white !important;
+}
+
+.txtArea {
+  resize: none !important;
+}
+/*# sourceMappingURL=main.css.map */
